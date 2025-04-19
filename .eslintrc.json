@@ -1,0 +1,22 @@
+{
+  "plugins": ["tailwindcss"],
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "prettier",
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "no-console": ["error", { "allow": ["info", "warn", "error", "log"] }],
+    "tailwindcss/classnames-order": "error",
+    "tailwindcss/no-custom-classname": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js"],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
+}
