@@ -1,8 +1,8 @@
 const Loading = ({
-  title,
+  // title,
   className = "",
 }: {
-  title?: string;
+  // title?: string;
   className?: string;
 }) => {
   return (
